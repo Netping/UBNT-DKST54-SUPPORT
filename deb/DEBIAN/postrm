@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if ls /etc/zabbix/ | grep nginx.bak
+then cp /etc/zabbix/nginx.bak /etc/zabbix/nginx.conf && sysctl net.ipv4.ip_forward=0
+else sysctl net.ipv4.ip_forward=0
+fi
