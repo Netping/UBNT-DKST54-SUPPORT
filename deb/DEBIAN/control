@@ -1,5 +1,7 @@
 Package: ubnt-dkst54-support
 Version: 0.1
+Depends: iptables-persistent
+Replaces: ubnt-zabbix-template
 Maintainer: vv.lisyak@gmail.com
 Architecture: all
 Section: misc
