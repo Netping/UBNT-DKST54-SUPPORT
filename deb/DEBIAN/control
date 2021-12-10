@@ -1,2 +1,2 @@
 Depends: iptables-persistent
-Replaces: ubnt-zabbix-template, ubnt-app-borg
+Replaces: ubnt-zabbix-template, ubnt-app-borg, zabbix-nginx-conf
