@@ -1,0 +1,14 @@
+Source: ubnt-dkst54-support
+Section: misc
+Priority: optional
+Maintainer: _valerius@mail.ru
+Version: 2.1-1
+
+Package: ubnt-dkst54-support
+Architecture: all
+Depends: iptables-persistent,
+         dksl-90
+Replaces: ubnt-zabbix-template, ubnt-app-borg, zabbix-nginx-conf
+Build-Depends: debhelper-compat
+Description: NetPing
+ UBNT-dkst54-support.
